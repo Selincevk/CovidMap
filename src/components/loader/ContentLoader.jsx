@@ -1,11 +1,16 @@
-import React from 'react'
-
 const ContentLoader = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  const arr = new Array(9).fill(".");
 
-export default ContentLoader
+  return arr.map((i) => (
+    <div
+    
+      data-testid="content-loader"
+      className="p-5 border text-black shadow rounded-md text-transparent select-none bg-gray-200 animate-pulse"
+    >
+      <div>.</div>
+      <div>.</div>
+    </div>
+  ));
+};
+
+export default ContentLoader;

@@ -1,5 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import covidReducer from "../redux/covidSlice"
+import covidReducer from "../redux/covidSlice";
 
-export default configureStore({ reducer : covidReducer})
-
+export default configureStore({
+  reducer: {
+    covid: covidReducer, // state.covid erişimini sağlar
+  },
+});

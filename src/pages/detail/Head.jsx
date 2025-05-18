@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 import HeadLoader from "../../components/loader/HeadLoader";
 
 const Head = () => {
-const {isLoading, data} = useSelector((store) => store)
+const { isLoading, data } = useSelector((state) => state.covid);
+
   return (
     <div className='flex justify-between items-center'>
    <Link to="/" className="bg-zinc-400 py-2 px-2 pe-3 rounded-md hover:bg-zinc-500 flex gap-2 items-center shadow">

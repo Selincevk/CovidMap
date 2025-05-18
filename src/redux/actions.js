@@ -11,7 +11,8 @@ export const getDetails = createAsyncThunk("covid/getDetails", async (country) =
   // iki api isteğinide paralel olrak at
   const [res1, res2] = await Promise.all([req1, req2]);
 
-  // ihtyacımız olan verileri al
+  
+  // ihtiyacımız olan verileri al
   const covid = res1.data.response[0];
   const countryData = res2.data[0];
 
