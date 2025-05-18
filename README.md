@@ -40,17 +40,27 @@ Proje React Testing Library ile test edilmiştir. Örnek test senaryoları:
 
 <h1>Kullanılan Kütüphaneler</h1>
 
-**@testing-library/jest-dom**
-**@testing-library/react** --> React bileşenlerini test etmeyi sağlar
-**axios** --> APİ isteklerini yönetir
-**millify** --> Büyük sayıları okunabilir formatta gösterir (örn: 150000 → 150K)
-**react-simple-maps** --> SVG tabanlı etkileşimli harita oluşturur
-**react-router-dom** -->  Sayfa yönlendirmesi ve detay sayfası yönetimi
-**react-icons** --> Simge setleri
-**tailwindcss** --> CSS framework, responsive ve şık tasarımlar için
-**@reduxjs/toolkit** --> Redux işlemlerini sadeleştirir ve yapılandırır
-**react-redux** --> React ile Redux bağlama işlemleri
-**redux-thunk** -->  Redux içinde async işlemleri yönetir (API çağrıları)
+- **@testing-library/jest-dom**
+
+- **@testing-library/react** --> React bileşenlerini test etmeyi sağlar
+
+- **axios** --> APİ isteklerini yönetir
+
+- **millify** --> Büyük sayıları okunabilir formatta gösterir (örn: 150000 → 150K)
+
+- **react-simple-maps** --> SVG tabanlı etkileşimli harita oluşturur
+
+- **react-router-dom** -->  Sayfa yönlendirmesi ve detay sayfası yönetimi
+
+- **react-icons** --> Simge setleri
+
+- **tailwindcss** --> CSS framework, responsive ve şık tasarımlar için
+
+- **@reduxjs/toolkit** --> Redux işlemlerini sadeleştirir ve yapılandırır
+
+- **react-redux** --> React ile Redux bağlama işlemleri
+
+- **redux-thunk** -->  Redux içinde async işlemleri yönetir (API çağrıları)
 
 <h1>DEMO</h1>
 
